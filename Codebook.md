@@ -1,4 +1,5 @@
-# This document describes the original data and variables from the Human Activity Recognition database as well as the transformations to get clean datasets.  
+# Code Book
+This document describes the original data and variables from the Human Activity Recognition database as well as the transformations to get clean datasets.  
 
 ## Raw Data
 * 561 variables in original files related to accelerometer and gyroscope signals.
