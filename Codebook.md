@@ -2,20 +2,20 @@
 This document describes the original data and variables from the Human Activity Recognition database as well as the transformations to get clean datasets.  
 
 ## Raw Data
-* 561 variables in original files related to accelerometer and gyroscope signals.
+* 561 variables in original files related to accelerometer and gyroscope signals. 
 * ID subjects from 1 to 30.
 * 6 different activity levels (walking, walking downstairs, walking upstairs, sitting, standing, laying) presented as numerical factors.
-* Training and testing datasets splitted in different files.
+* Training and testing datasets splitted in different .txt files.
 
 ## Transformations 
-* Merging of the training dataset (three files) by cbind
-* Merging of the testing dataset (three files) by cbind
-* Merging of the merged training and testing datasets by rbind
-* Cleaning of duplicated variable columns in the merged dataset
+* Reading the list of variable names present in .txt file and getting them into a chr vector.
+* Merging of the training dataset (three files) by cbind and renaming the variable names considering the chr vector.
+* Merging of the testing dataset (three files) by cbind and renaming the variable names considering the chr vector.
+* Combining the merged training and testing datasets by rbind.
+* Cleaning of duplicated variable columns in the merged dataset.
 * Sorting of this merged dataset based on the order of Subject IDs.
-* Converting the numerical factors in the Activity column to character factors 
-(walking, walking downstairs, walking upstairs, sitting, standing, laying)
+* Converting the numerical factors in the Activity column to character factors
+(walking, walking downstairs, walking upstairs, sitting, standing, laying).
 * Getting a new dataframe presenting the summary of means and SDs for each variable (except Subject ID and activity) as individual columns.
 * Getting a new dataframe presenting the summary of means and SDs for each variable grouped by Subject and Activity levels.
 * Getting a .txt tidy table of the previous dataframe.
-
