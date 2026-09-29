@@ -1,10 +1,10 @@
 # This document describes the original data and variables from the Human Activity Recognition database as well as the transformations to get clean datasets.  
 
 ## Raw Data
-561 variables in original files related to accelerometer and gyroscope signals.
-ID subjects from 1 to 30.
-6 different activity levels (walking, walking downstairs, walking upstairs, sitting, standing, laying) presented as numerical factors.
-Training and testing datasets splitted in different files.
+* 561 variables in original files related to accelerometer and gyroscope signals.
+* ID subjects from 1 to 30.
+* 6 different activity levels (walking, walking downstairs, walking upstairs, sitting, standing, laying) presented as numerical factors.
+* Training and testing datasets splitted in different files.
 
 ## Transformations 
 * Merging of the training dataset (three files) by cbind
