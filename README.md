@@ -7,6 +7,7 @@ Licence: CC0 1.0
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Other details are present at: https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones.
 * `R/`: R file presents the used R scripts and respective outputs.
 * `RMD/`: RMD file to be knitted by the user.
+* `md/`: A codebook presenting the details for measured variables (besides subject IDs and Activity levels) as presented by the Human Activity Recognition database.
 
 ## Requirements & Installation
 Required package: dplyr. 
