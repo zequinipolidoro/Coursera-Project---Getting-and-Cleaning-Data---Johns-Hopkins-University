@@ -1,10 +1,11 @@
 # Coursera-Project---Getting-and-Cleaning-Data---Johns-Hopkins-University
 This project is designed to collect, work with and cleaning data sets in R.
+Licence: CC0 1.0
 
 ## Project Structure
 * `data/`: Raw data and metadata, from Human Activity Recognition database, was downloaded as a .zip folder at  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. Other details are present at: https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones.
-* `Rmd/`: R Markdown file presents the used R scripts and respective outputs.
+* `R/`: R file presents the used R scripts and respective outputs.
 
 ## Requirements & Installation
 Required package: dplyr. 
