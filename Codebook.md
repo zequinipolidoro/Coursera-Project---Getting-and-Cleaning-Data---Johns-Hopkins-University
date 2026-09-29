@@ -16,6 +16,6 @@ This document describes the original data and variables from the Human Activity 
 * Sorting of this merged dataset based on the order of Subject IDs.
 * Converting the numerical factors in the Activity column to character factors
 (walking, walking downstairs, walking upstairs, sitting, standing, laying).
-* Getting a new dataframe presenting the summary of means and SDs for each variable (except Subject ID and activity) as individual columns.
-* Getting a new dataframe presenting the summary of means and SDs for each variable grouped by Subject and Activity levels.
+* Getting a new dataframe combining the 66 columns representing the means and SDs for each variable as well as the Subject ID and activity.
+* Getting a new dataframe presenting the average values of these 66 columns grouped by Subject and Activity levels (30*6 = 180 combinations/rows).
 * Getting a .txt tidy table of the previous dataframe.
