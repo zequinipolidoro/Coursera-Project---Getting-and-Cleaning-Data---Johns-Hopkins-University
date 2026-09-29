@@ -78,7 +78,8 @@ merged_ordered1 <- merged_ordered %>%
   mutate(across(everything(), ~ as.numeric(as.character(.x))))
 ```
 
-#converting Activity column data to factors and then transforming these numeric factors in the strings present in the .txt file/second chr vector created in this script.
+#converting Activity column data to factors and then transforming these numeric factors in the strings present in the .txt file/second chr vector created 
+in this script.
 
 ```{r}
 merged_ordered1$Activity <- as.factor(merged_ordered1$Activity)
