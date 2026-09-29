@@ -19,4 +19,10 @@ library(dplyr)
 ## How to Run the Analysis
 1. Clone the repository.
 2. Open the ProjectCoursera.rmd file in RStudio.
-3. Run the chunk codes in this file.
+3. Run the chunk codes in this file (changing lines containing file paths as necessary).
+
+# Expected Outputs
+* Merged and ordered training and testing datasets
+* Summary of means and SDs for each variable as a new dataframe.
+* Tidy table with calculated variables' means and SDs for each subject and for each activity.
+* A .txt file to be exported presenting this tidy table.
